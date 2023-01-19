@@ -1,0 +1,5 @@
+python-types-docutils source: file-without-copyright-information
+python-types-docutils source: no-debian-changes
+python-types-docutils source: source-contains-prebuilt-windows-binary
+python-types-docutils source: source-is-missing
+python-types-docutils source: source-package-encodes-python-version
