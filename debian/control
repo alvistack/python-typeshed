@@ -1,0 +1,31 @@
+Source: python-types-python-dateutil
+Section: python
+Priority: optional
+Standards-Version: 4.5.0
+Maintainer: Wong Hoi Sing Edison <hswong3i@gmail.com>
+Homepage: https://pypi.org/project/types-python-dateutil/#history
+Vcs-Browser: https://github.com/alvistack/python-typeshed
+Vcs-Git: https://github.com/alvistack/python-typeshed.git
+Build-Depends:
+ debhelper,
+ debhelper-compat (= 10),
+ dh-python,
+ fdupes,
+ python3-dev,
+ python3-setuptools,
+
+Package: python3-types-python-dateutil
+Architecture: all
+Description: Typing stubs for python-dateutil
+ This is a PEP 561 type stub package for the python-dateutil package. It
+ can be used by type-checking tools like mypy, pyright, pytype, PyCharm,
+ etc. to check code that uses python-dateutil.
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${python3:Depends},
+ python3,
+Replaces:
+ python3-typeshed,
+Conflicts:
+ python3-typeshed,

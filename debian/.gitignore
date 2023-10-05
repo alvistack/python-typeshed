@@ -2,5 +2,5 @@
 *debhelper*
 .debhelper
 files
-python3-types-docutils
+python3-types-python-dateutil
 tmp
