@@ -14,6 +14,8 @@
 
 %global debug_package %{nil}
 
+%global source_date_epoch_from_changelog 0
+
 Name: python-types-docutils
 Epoch: 100
 Version: 0.20.0.20240125
