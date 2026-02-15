@@ -1,0 +1,5 @@
+python-types-cryptography source: file-without-copyright-information
+python-types-cryptography source: no-debian-changes
+python-types-cryptography source: source-contains-prebuilt-windows-binary
+python-types-cryptography source: source-is-missing
+python-types-cryptography source: source-package-encodes-python-version

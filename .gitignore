@@ -2,3 +2,4 @@
 .pybuild
 MANIFEST.in
 PKG-INFO
+docutils-stubs
