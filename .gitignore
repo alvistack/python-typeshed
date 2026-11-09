@@ -1,0 +1,6 @@
+*.egg-info
+.pybuild
+MANIFEST.in
+PKG-INFO
+dist
+docutils-stubs
